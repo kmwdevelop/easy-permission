@@ -1,6 +1,3 @@
-다음은 제공하신 사용법을 바탕으로 한 EasyPermission 라이브러리의 README 예제입니다:
-
-
 # EasyPermission
 
 EasyPermission은 안드로이드 애플리케이션에서 권한 요청 프로세스를 간소화하는 간단한 라이브러리입니다.

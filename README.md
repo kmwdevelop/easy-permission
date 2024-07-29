@@ -13,6 +13,18 @@ EasyPermission은 안드로이드 애플리케이션에서 권한 요청 프로�
 `build.gradle` 파일에 다음 의존성을 추가하세요:
 
 ```groovy
+repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/kmwdevelop/easy-permission-aos")
+            credentials {
+                username = "kmwdevelop"
+                password = "****" // 이메일로 연락 주세요. 읽기전용 토큰을 발급 해드립니다
+            }
+        }
+    }
+
 dependencies {
     implementation 'kr.co.kmwdev:easy-permission-aos:1.0.0'
 }
